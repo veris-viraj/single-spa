@@ -1,0 +1,11 @@
+- Creating single spa application: 
+    1. npx create-single-spa
+        - Enter project folder name : If first time it will be a root folder
+        - Type for first time: single-spa root config : It will create a main container
+        - select any package manager
+        - Choose if you want ts or not
+        - choose if you want layout or not
+        - enter organisation name
+        - root folder is ready
+        - navigate to folder
+        - run npm start
