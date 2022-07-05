@@ -9,3 +9,19 @@
         - root folder is ready
         - navigate to folder
         - run npm start
+
+ 
+    2. Creating child applications:
+        - Enter child project folder name
+        - Type: single-spa application / parcel
+        - select any package manager
+        - Choose if you want ts or not
+        - choose if you want layout or not
+        - enter organisation name
+        - root folder is ready
+        - navigate to folder
+        - run: npm start -- --port 8500
+        - Go to given single spa playground url
+        - If url breaks go to package.json file
+        - and run standalone script
+        - go to localhost url
