@@ -9,6 +9,12 @@ registerApplication({
   activeWhen: ["/"],
 });
 
+registerApplication({
+  name: "@viraj/react-app",
+  app: () => System.import("@viraj/react-app"),
+  activeWhen: ["/child-react-app"],
+});
+
 // registerApplication({
 //   name: "@viraj/navbar",
 //   app: () => System.import("@viraj/navbar"),
