@@ -25,3 +25,8 @@
         - If url breaks go to package.json file
         - and run standalone script
         - go to localhost url
+
+        - Go to network => refresh page => go to child app file => preview => copy url
+        - Now go to root folder => index.ejs => islocal imports => paste "@org_name/child_project_name" : "url"
+        - This will register react app with base app
+        - Go to org_name-root-config.js file and register new url and app => check app-container/src/viraj-root-config.js
